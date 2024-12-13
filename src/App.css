@@ -4,7 +4,8 @@
 
 .about_main{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -25,4 +26,61 @@
     gap: 3vw;
     justify-content: center;
     align-items: center;
+    overflow: hidden  ;
+}
+
+.services{
+   width: 100%;
+   height: auto;
+   background-color: blanchedalmond;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+   padding: 10vw;
+   gap: 5vw;
+
+}
+
+.serviceicons{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.serviceicons img{
+   width: 10vw;
+   height: 10vw;
+}
+
+
+
+.enterform{
+    background-color: bisque;
+    width: 400px;
+    min-height:400px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs{
+    width: 100%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.inputs h3{
+    font-size: 2vw;
+
+}
+.inputs input{
+    width: 100%;
 }
